@@ -1,0 +1,44 @@
+{
+  "name": "my-gulp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SytnikArtem/my-gulp-project.git"
+  },
+  "author": "SytnikArtem\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b_Artem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SytnikArtem/my-gulp-project/issues"
+  },
+  "homepage": "https://github.com/SytnikArtem/my-gulp-project#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-bower": "0.0.15",
+    "gulp-cache": "^1.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-html-import": "0.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglifyjs": "^0.6.2",
+    "less-plugin-sass2less": "^1.2.0"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.0.1",
+    "gulp-less": "^4.0.1",
+    "gulp-less2sass": "0.0.2",
+    "gulp-tinypng-compress": "^1.2.1",
+    "select2": "^4.0.6-rc.1",
+    "slick": "^1.12.2"
+  }
+}

@@ -1,0 +1,2620 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">-->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="wrap">
+		<!-- header.html -->
+<header class="header">
+	<button type="button" class="burger">
+		<span class="burger-line burger-top"></span>
+		<span class="burger-line burger-center"></span>
+		<span class="burger-line burger-bottom"></span>
+	</button>
+	<div class="header-mob">
+		<a href="#" class="header-user">
+			<img src="img/image.jpg" alt="user image" class="header-img">
+			<span class="header-number count-pink">2</span>
+			<button class="ellipsis">
+				<span class="ellipsis-circle"></span>
+				<span class="ellipsis-circle"></span>
+				<span class="ellipsis-circle"></span>
+			</button>
+		</a>
+		<nav class="header-nav">
+			<ul class="header-menu">
+				<li class="header-list">
+					<a href="#" class="header-link active">
+						<svg fill="#ff503f" height="43" width="43" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="m256 512c140.960938 0 256-115.050781 256-256 0-140.960938-115.050781-256-256-256-140.960938 0-256 115.050781-256 256 0 140.960938 115.050781 256 256 256zm-146.859375-84.367188c36.839844-41.320312 90.71875-65.632812 146.859375-65.632812s110.019531 24.3125 146.859375 65.632812c-39.527344 33.871094-90.84375 54.367188-146.859375 54.367188s-107.332031-20.496094-146.859375-54.367188zm-18.457031-186.632812c3.109375-34.523438 16.824218-66.035156 37.867187-91.234375l20.382813 20.382813 21.214844-21.214844-20.382813-20.382813c25.199219-21.042969 56.710937-34.757812 91.234375-37.867187v29.316406h30v-29.316406c34.523438 3.109375 66.035156 16.824218 91.234375 37.867187l-20.382813 20.382813 21.214844 21.214844 20.382813-20.382813c21.039062 25.199219 34.757812 56.710937 37.867187 91.234375h-29.316406v29.988281h29.308594c-3.265625 36.140625-18.234375 70.441407-42.4375 97.089844-37.378906-24.0625-80.410156-36.078125-122.871094-36.078125-42.371094 0-85.414062 11.964844-122.871094 36.078125-24.203125-26.648437-39.171875-60.941406-42.4375-97.078125h29.308594v-30zm165.316406-211c124.617188 0 226 101.382812 226 226 0 57.816406-21.832031 110.621094-57.675781 150.632812-6.605469-7.316406-13.722657-14.199218-21.265625-20.609374 31.269531-35.53125 48.941406-82.023438 48.941406-130.023438 0-107.636719-88.351562-196-196-196-107.636719 0-196 88.351562-196 196 0 48 17.671875 94.492188 48.941406 130.023438-7.542968 6.410156-14.660156 13.292968-21.265625 20.609374-35.84375-40.011718-57.675781-92.816406-57.675781-150.632812 0-124.617188 101.382812-226 226-226zm0 0"/><path d="m211 392h90v30h-90zm0 0"/><path d="m217.558594 279.398438c8.242187 13.527343 22.613281 21.601562 38.441406 21.601562 24.8125 0 45-20.1875 45-45 0-15.828125-8.074219-30.199219-21.601562-38.441406l-.773438-.472656-112.839844-51.296876 51.300782 112.835938zm46.863281-35.816407c4.132813 2.804688 6.578125 7.390625 6.578125 12.417969 0 8.269531-6.730469 15-15 15-5.027344 0-9.613281-2.445312-12.417969-6.578125l-17.367187-38.210937zm0 0"/></svg>
+						<p class="header-text">Board</p>
+					</a>
+					<button type="button" class="ellipsis">
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+					</button>
+				</li>
+				<li class="header-list">
+					<a href="#" class="header-link">
+					<span class="header-block">
+						<span class="header-span">9</span>
+						<svg fill="#787878" height="30" viewBox="0 -21 384 384" width="36" xmlns="http://www.w3.org/2000/svg"><path d="m362.667969 0h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0"/><path d="m362.667969 128h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0"/><path d="m362.667969 256h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0"/></svg>
+					</span>
+						<p class="header-text">Projects</p>
+					</a>
+					<button type="button" class="ellipsis">
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+					</button>
+				</li>
+				<li class="header-list">
+					<a href="#" class="header-link">
+						<svg fill="#787878" height="42" viewBox="0 0 512 512" width="42" xmlns="http://www.w3.org/2000/svg"><path d="m499.953125 197.703125-39.351563-8.554687c-3.421874-10.476563-7.660156-20.695313-12.664062-30.539063l21.785156-33.886719c3.890625-6.054687 3.035156-14.003906-2.050781-19.089844l-61.304687-61.304687c-5.085938-5.085937-13.035157-5.941406-19.089844-2.050781l-33.886719 21.785156c-9.84375-5.003906-20.0625-9.242188-30.539063-12.664062l-8.554687-39.351563c-1.527344-7.03125-7.753906-12.046875-14.949219-12.046875h-86.695312c-7.195313 0-13.421875 5.015625-14.949219 12.046875l-8.554687 39.351563c-10.476563 3.421874-20.695313 7.660156-30.539063 12.664062l-33.886719-21.785156c-6.054687-3.890625-14.003906-3.035156-19.089844 2.050781l-61.304687 61.304687c-5.085937 5.085938-5.941406 13.035157-2.050781 19.089844l21.785156 33.886719c-5.003906 9.84375-9.242188 20.0625-12.664062 30.539063l-39.351563 8.554687c-7.03125 1.53125-12.046875 7.753906-12.046875 14.949219v86.695312c0 7.195313 5.015625 13.417969 12.046875 14.949219l39.351563 8.554687c3.421874 10.476563 7.660156 20.695313 12.664062 30.539063l-21.785156 33.886719c-3.890625 6.054687-3.035156 14.003906 2.050781 19.089844l61.304687 61.304687c5.085938 5.085937 13.035157 5.941406 19.089844 2.050781l33.886719-21.785156c9.84375 5.003906 20.0625 9.242188 30.539063 12.664062l8.554687 39.351563c1.527344 7.03125 7.753906 12.046875 14.949219 12.046875h86.695312c7.195313 0 13.421875-5.015625 14.949219-12.046875l8.554687-39.351563c10.476563-3.421874 20.695313-7.660156 30.539063-12.664062l33.886719 21.785156c6.054687 3.890625 14.003906 3.039063 19.089844-2.050781l61.304687-61.304687c5.085937-5.085938 5.941406-13.035157 2.050781-19.089844l-21.785156-33.886719c5.003906-9.84375 9.242188-20.0625 12.664062-30.539063l39.351563-8.554687c7.03125-1.53125 12.046875-7.753906 12.046875-14.949219v-86.695312c0-7.195313-5.015625-13.417969-12.046875-14.949219zm-152.160156 58.296875c0 50.613281-41.179688 91.792969-91.792969 91.792969s-91.792969-41.179688-91.792969-91.792969 41.179688-91.792969 91.792969-91.792969 91.792969 41.179688 91.792969 91.792969zm0 0"/></svg>
+						<p class="header-text">Settings</p>
+					</a>
+				</li>
+			</ul>
+			<ul class="header-menu">
+				<li class="header-list">
+					<a href="#" class="header-link">
+					<span class="header-relative">
+						<span class="header-number count-pink">3</span>
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1"  x="0px" y="0px" viewBox="0 0 506 506" style="enable-background:new 0 0 506 506;" xml:space="preserve" width="44" height="44" class=""><g><circle style="fill:#4b4d4f;" cx="253" cy="253" r="253" data-original="#FD8469" class=""/><path style="fill:#1f2429;" d="M364.1,252.4c7.8-9.1,14.6-18.3,20.3-27.3c20.1-31.7,24.3-58.7,12-75.9  c-13.8-19.3-45.9-21.9-85.6-10.3c-13.7-39-34.6-63.5-58.3-63.5s-44.6,24.5-58.3,63.5c-3.3-1-6.6-1.9-9.8-2.7  c-36.5-8.9-63.4-4.3-75.8,13c-16.4,22.8-2.5,62.3,32.2,103.2c-34.7,40.9-48.6,80.4-32.2,103.2c8.3,11.5,23,17.4,42.7,17.4  c9.8,0,20.9-1.5,33-4.4c3.2-0.8,6.5-1.7,9.8-2.7c13.7,39,34.6,63.5,58.3,63.5s44.6-24.5,58.3-63.5c15.6,4.6,30.1,7,42.7,7  c19.4,0,34.5-5.6,42.9-17.3c12.4-17.2,8.1-44.2-12-75.9C378.7,270.6,371.9,261.5,364.1,252.4z M353.4,144.6c15.5,0,26.9,4.1,32.6,12  c9,12.5,4.5,35-12.4,61.6c-5.1,8.1-11.2,16.3-18.1,24.5c-8.8-9.5-18.7-19-29.3-28.2c-2.1-23.3-6.1-44.8-11.6-63.6  C329.3,146.7,342.4,144.6,353.4,144.6z M289,303.2c-12.1,8.7-24.3,16.5-36.6,23.4c-11.9-6.7-24.1-14.5-36.4-23.4  c-8.9-6.4-17.2-12.8-24.9-19.3c-0.8-10.1-1.2-20.6-1.2-31.5s0.4-21.4,1.2-31.5c7.8-6.5,16-13,24.9-19.3  c12.4-8.9,24.6-16.7,36.5-23.4c12.2,6.9,24.5,14.8,36.5,23.4c8.7,6.2,17,12.7,24.9,19.4c0.8,10.1,1.2,20.6,1.2,31.5  c0,10.9-0.4,21.4-1.2,31.5C306.1,290.5,297.7,297,289,303.2z M312.2,301.8c-2.2,17.8-5.5,33.9-9.6,48.1c-11.6-4.1-24-9.5-36.9-16.1  c10.3-6.1,20.7-12.9,30.8-20.2C301.9,309.8,307.1,305.8,312.2,301.8z M239.3,333.8c-12.5,6.4-24.9,11.8-36.9,16.1  c-4.1-14.2-7.4-30.3-9.6-48c5.1,4,10.3,7.9,15.7,11.8C218.8,321,229.1,327.7,239.3,333.8z M177.6,272c-7.2-6.6-13.7-13.2-19.7-19.7  c6-6.5,12.5-13.1,19.7-19.7c-0.3,6.4-0.5,13-0.5,19.7S177.3,265.6,177.6,272z M192.8,202.9c2.2-17.8,5.5-33.9,9.6-48  c11.9,4.2,24.3,9.6,36.9,16.1c-10.2,6.1-20.5,12.8-30.8,20.1C203.1,195,197.9,198.9,192.8,202.9z M265.6,170.9  c12.9-6.7,25.3-12,36.9-16.1c4.1,14.2,7.4,30.3,9.6,48.1c-5.1-4-10.3-8-15.7-11.8C286.3,183.8,276,177.1,265.6,170.9z M327.5,232.8  c7,6.5,13.5,13,19.6,19.6c-6,6.6-12.6,13.1-19.6,19.6c0.3-6.4,0.4-13,0.4-19.6C327.9,245.7,327.8,239.2,327.5,232.8z M252.5,88.1  c16.7,0,34,20.1,46.2,54.6c-14.7,5.2-30.3,12.1-46.2,20.7c-15.7-8.5-31.2-15.5-46.2-20.8C218.5,108.2,235.9,88.1,252.5,88.1z   M119.1,156.6c5.7-8,17-12.1,32.3-12.1c8.8,0,18.9,1.3,30,4c2.9,0.7,5.9,1.5,8.9,2.4c-5.5,18.8-9.5,40.2-11.6,63.5  c-10.8,9.3-20.6,18.8-29.4,28.2C118.4,205.7,107.6,172.6,119.1,156.6z M181.4,356.1c-30.6,7.4-53.4,4.5-62.3-8  c-11.5-16-0.7-49.2,30.4-86.2c8.8,9.5,18.6,18.9,29.4,28.2c2.1,23.3,6.1,44.8,11.6,63.5C187.3,354.6,184.4,355.4,181.4,356.1z   M252.5,416.6c-16.7,0-34-20.1-46.2-54.6c14.9-5.3,30.5-12.3,46.2-20.8c15.9,8.6,31.5,15.6,46.2,20.7  C286.5,396.5,269.2,416.6,252.5,416.6z M386,348.1c-9.7,13.6-36.2,15.9-71.3,5.7c5.5-18.8,9.5-40.3,11.6-63.6  c10.6-9.2,20.4-18.6,29.3-28.2c6.9,8.2,13,16.4,18.1,24.5C390.5,313.1,395,335.6,386,348.1z" data-original="#324A5E" class=""/><path style="fill:#1f2428;" d="M390.5,133.4c-11.8,0-21.5,9.6-21.5,21.5c0,11.8,9.6,21.5,21.5,21.5s21.5-9.6,21.5-21.5  S402.4,133.4,390.5,133.4z" data-original="#4CDBC4"/><path style="fill:#1e2328;" d="M252.5,398.5c-11.8,0-21.5,9.6-21.5,21.5c0,11.8,9.6,21.5,21.5,21.5S274,431.8,274,420  C274,408.1,264.4,398.5,252.5,398.5z" data-original="#E6E9EE"/><path style="fill:#1e2327;" d="M113.3,133.3c-11.8,0-21.5,9.6-21.5,21.5c0,11.8,9.6,21.5,21.5,21.5s21.5-9.6,21.5-21.5  C134.8,143,125.2,133.3,113.3,133.3z" data-original="#1e2327"/><circle style="fill:#1e2328" cx="252.6" cy="252.4" r="41.8" data-original="#FFD05B" class="active-path" data-old_color="#FFD05B"/></g> </svg>
+					</span>
+						<p class="header-text">Upgrade</p>
+					</a>
+					<button type="button" class="ellipsis">
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+						<span class="ellipsis-circle"></span>
+					</button>
+				</li>
+				<li class="header-list">
+					<a href="#" class="header-link ">
+						<svg fill="#ff503f" width="44" height="44" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+							 viewBox="0 0 511.996 511.996" style="enable-background:new 0 0 511.996 511.996;" xml:space="preserve">
+						<g>
+							<g>
+								<g>
+									<path d="M349.85,62.196c-10.797-4.717-23.373,0.212-28.09,11.009c-4.717,10.797,0.212,23.373,11.009,28.09
+										c69.412,30.324,115.228,98.977,115.228,176.035c0,106.034-85.972,192-192,192c-106.042,0-192-85.958-192-192
+										c0-77.041,45.8-145.694,115.192-176.038c10.795-4.72,15.72-17.298,10.999-28.093c-4.72-10.795-17.298-15.72-28.093-10.999
+										C77.306,99.275,21.331,183.181,21.331,277.329c0,129.606,105.061,234.667,234.667,234.667
+										c129.592,0,234.667-105.068,234.667-234.667C490.665,183.159,434.667,99.249,349.85,62.196z"/>
+									<path d="M255.989,234.667c11.782,0,21.333-9.551,21.333-21.333v-192C277.323,9.551,267.771,0,255.989,0
+										c-11.782,0-21.333,9.551-21.333,21.333v192C234.656,225.115,244.207,234.667,255.989,234.667z"/>
+								</g>
+							</g>
+						</g>
+						</svg>
+						<p class="header-text header-text-white">Logout</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+</header>
+		<main class="main">
+			<div class="top">
+				<div class="top-row">
+					<button class="btn-reload">
+						<img src="img/reload.svg" alt="reload" class="btn-reload-icon">
+					</button>
+					<a href="#" class="btn">Dashboard</a>
+				</div>
+				<div class="top-row">
+					<button class="btn-green">
+						<img src="img/arrow-down.svg" alt="reload" class="btn-green-arrow">
+					</button>
+					<a href="#" class="btn btn-chat">
+						<img src="img/chat.svg" alt="clouds" class="btn-chat-icon">
+						<p class="btn-chat-text">5 User ONLINE</p>
+						<svg fill="#a6a6a6" version="1.1" width="10" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+						<g>
+							<g>
+								<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+									L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+									c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+									c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+									C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+							</g>
+						</g>
+					</svg>
+					</a>
+				</div>
+			</div>
+			<section class="board">
+				<div class="board-top">
+					<ul class="tabs">
+						<li class="tabs-list active">
+							<img src="img/clock.svg" alt="clock" class="tabs-clock">
+							<p class="tabs-text">
+								Active Projects
+								<span class="count-gray">9</span>
+							</p>
+						</li>
+						<li class="tabs-list">
+							<img src="img/send.svg" alt="send" class="tabs-send">
+							<p class="tabs-text">
+								Messenger
+								<span class="count-pink">2</span>
+							</p>
+						</li>
+					</ul>
+					<p class="text-gray">Search Project, User, Task, etc...</p>
+				</div>
+				<div class="board-main">
+					<div class="board-left">
+						<div class="board-search">
+							<p class="text-gray">Search a Project with Name, Task, User...</p>
+							<div class="board-row">
+								<div class="select">
+									<p class="select-text">New Projects</p>
+									<select>
+										<option value="">(descending)</option>
+										<option value="">(ascending)</option>
+									</select>
+									<svg class="select-arrow" fill="#a6a6a6" version="1.1" width="12" height="12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+													L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+													c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+													c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+													C491.996,136.902,489.204,130.046,484.132,124.986z"></path>
+											</g>
+										</g>
+									</svg>
+								</div>
+								<button type="button" class="btn-add"></button>
+							</div>
+						</div>
+						<ul class="board-projects">
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">87<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Panorama</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66	<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Ebay Relaunch</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">87<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Panorama</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66	<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Ebay Relaunch</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">87<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Panorama</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66	<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Ebay Relaunch</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">87<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Panorama</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66	<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Create Contact Formular</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Ebay Relaunch</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="card">
+								<div class="card-flex">
+									<div class="card-row">
+										<p class="card-stock">23<span class="card-stock-span">%</span></p>
+										<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+									</div>
+									<div class="card-row">
+										<button type="button" class="btn">Worlda</button>
+										<button type="button" class="btn-circle">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+														s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+														C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+														s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+										<button type="button" class="btn-circle btn-drop">
+											<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+											<g>
+												<g>
+													<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+														L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+														c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+														c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+														C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+												</g>
+											</g>
+										</svg>
+										</button>
+									</div>
+								</div>
+								<ul class="card-drop">
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-disabled">66<span class="card-stock-span">%</span></p>
+											<p class="card-text">Creating the Context</p>
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-offline"></span>
+												</div>
+												<button type="button" class="btn-circle btn-circle-user">+3</button>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Today,
+														<span class="btn-text-span"> 13:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+									<li class="card-flex">
+										<div class="card-row">
+											<p class="card-stock card-stock-ready">READY</p>
+											<p class="card-text text-through">Implementation in the Layout</p>
+											<img src="img/check-mark.svg" alt="check mark" class="card-check">
+										</div>
+										<div class="card-row">
+											<div class="card-users">
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+												<div class="card-user">
+													<img src="img/image.jpg" alt="image user" class="card-user-img">
+													<span class="status-online"></span>
+												</div>
+											</div>
+											<div class="card-btns">
+												<button type="button" class="btn">
+													<svg fill="#a6a6a6" version="1.1"  width="12" height="13" xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px"
+														 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+													<g>
+														<g>
+															<path d="M408.973,142.689C368.113,101.829,313.785,79.326,256,79.326h-31.717l50.907-51.032L246.826,0L147.68,99.389
+																l97.852,99.488l28.563-28.093l-50.551-51.396H256c97.198,0,176.275,79.076,176.275,176.275S353.198,471.938,256,471.938
+																S79.725,392.861,79.725,295.659v-20.031l-40.062,0.004v20.031c0,57.786,22.503,112.113,63.364,152.973
+																C143.887,489.497,198.215,512,256,512c57.785,0,112.113-22.503,152.973-63.364c40.861-40.861,63.364-95.188,63.364-152.973
+																S449.834,183.55,408.973,142.689z"/>
+														</g>
+													</g>
+												</svg>
+													<p class="btn-text">
+														Yestarday,
+														<span class="btn-text-span"> 12:40 </span>
+														PM
+													</p>
+												</button>
+												<button type="button" class="btn-circle">
+													<svg fill="#a6a6a6" width="12" height="12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+														 viewBox="0 0 513.28 513.28" style="enable-background:new 0 0 513.28 513.28;" xml:space="preserve">
+										<g>
+											<g>
+												<path d="M495.04,404.48L410.56,320c15.36-30.72,25.6-66.56,25.6-102.4C436.16,97.28,338.88,0,218.56,0S0.96,97.28,0.96,217.6
+													s97.28,217.6,217.6,217.6c35.84,0,71.68-10.24,102.4-25.6l84.48,84.48c25.6,25.6,64,25.6,89.6,0
+													C518.08,468.48,518.08,430.08,495.04,404.48z M218.56,384c-92.16,0-166.4-74.24-166.4-166.4S126.4,51.2,218.56,51.2
+													s166.4,74.24,166.4,166.4S310.72,384,218.56,384z"/>
+											</g>
+										</g>
+									</svg>
+												</button>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<a href="#" class="board-link">Project Archiv
+							<svg class="board-link-arrow" fill=" #a6a6a6" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+								<g>
+									<g>
+										<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+											L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+											c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+											c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+											C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+									</g>
+								</g>
+							</svg>
+						</a>
+					</div>
+					<div class="board-right">
+						<ul class="users">
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-offline"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-offline"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-offline"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-offline"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+							<li class="users-row">
+								<div class="users-col">
+									<div class="status-online"></div>
+									<img src="img/image.jpg" alt="user image" class="users-img">
+								</div>
+								<div class="users-col">
+									<p class="users-top">Marvin S. <span class="users-light"> add an Image into Worlda</span></p>
+									<p class="users-bottom">Today, 10:30 PM</p>
+								</div>
+							</li>
+						</ul>
+						<a href="#" class="board-link">Activity Archiv
+							<svg class="board-link-arrow" fill=" #a6a6a6" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+								<g>
+									<g>
+										<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+											L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+											c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+											c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+											C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+									</g>
+								</g>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</section>
+		</main>
+
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/bodyScrollLock.js"></script>
+    <script src="js/common.js"></script>
+</body>
+</html>

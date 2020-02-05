@@ -1,0 +1,25 @@
+{
+  "name": "my-gulp-project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "SytnikArtem\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b_Artem"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1",
+    "masonry-layout": "masonry#^4.2.2",
+    "select2": "^4.0.5"
+  }
+}
