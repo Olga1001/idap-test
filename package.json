@@ -38,7 +38,7 @@
     "gulp-less": "^4.0.1",
     "gulp-less2sass": "0.0.2",
     "gulp-tinypng-compress": "^1.2.1",
-    "select2": "^4.0.6-rc.1",
+    "select2": "^4.0.6",
     "slick": "^1.12.2"
   }
 }
